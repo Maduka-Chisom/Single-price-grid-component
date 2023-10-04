@@ -33,7 +33,7 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: [Add solution URL here](https://your-solution-url.com)
+- Solution URL: [Add solution URL here](https://github.com/Maduka-Chisom/Single-price-grid-component.git)
 - Live Site URL: [Add live site URL here](https://maduka-chisom.github.io/Single-price-grid-component/)
 
 ## My process
