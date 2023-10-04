@@ -1,0 +1,110 @@
+.container {
+  max-width: calc(1rem * 563 / 16);
+  box-shadow: 3px 4px 30px hsla(217, 22%, 67%, 0.457);
+  overflow: hidden;
+  display: grid;
+  border-radius: 6px;
+  grid-template-columns: repeat(2, 1fr);
+}
+
+/* JOIN COMMUNITY */
+.Join-community {
+  grid-column: span 2;
+  padding: var(--font-size-xxxl);
+  background-color: hsl(0, 0%, 100%);
+}
+
+.primary-heading {
+  margin-bottom: var(--font-size-md);
+  font-size: var(--font-size-md);
+  color: hsl(179, 62%, 43%);
+}
+
+.headline-text {
+  color: hsl(71, 73%, 54%);
+  margin-bottom: var(--font-size-sm);
+  font-weight: 700;
+}
+
+.paragraph-text {
+  color: hsl(218, 22%, 67%);
+  font-size: calc(1rem * 14 / 16);
+  line-height: 1.6;
+}
+
+/* PRICING SECTION */
+
+.pricing-section {
+  background-color: hsl(179, 62%, 43%);
+}
+
+.pricing-section,
+.features-section {
+  padding: var(--font-size-xxxl);
+  color: hsl(0, 0%, 100%);
+}
+
+.pricing-heading,
+.features-heading {
+  font-size: var(--font-size-base);
+  margin-bottom: var(--font-size-base);
+}
+
+.pricing span {
+  font-size: var(--font-size-xl);
+  font-weight: 700;
+}
+
+.pricing p {
+  color: hsla(203, 44%, 93%, 0.821);
+}
+
+.pricing {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  gap: calc(1rem * 11 / 16);
+  font-size: calc(1rem * 14 / 16);
+  margin-bottom: calc(1rem * 8 / 16);
+}
+
+.pricing-description {
+  font-size: calc(1rem * 14 / 16);
+  margin-bottom: var(--font-size-xl);
+}
+
+.sign-up:link,
+.sign-up:visited {
+  padding: var(--font-size-sm);
+  background-color: hsl(71, 73%, 54%);
+  text-decoration: none;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: hsl(0, 0%, 100%);
+  font-weight: 700;
+  border-radius: 4px;
+  font-size: calc(1rem * 14 / 16);
+  transition: all 0.3s;
+  box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.sign-up:hover,
+.sign-up:active {
+  background-color: hsl(71, 73%, 58%);
+}
+
+/* FEATURES SECTION */
+
+.features-section {
+  background-color: hsl(179, 49%, 49%);
+}
+
+.features-list {
+  font-size: calc(1rem * 14 / 16);
+  list-style: none;
+  display: flex;
+  flex-direction: column;
+  gap: calc(1rem * 2 / 16);
+  color: hsla(203, 44%, 93%, 0.821);
+}

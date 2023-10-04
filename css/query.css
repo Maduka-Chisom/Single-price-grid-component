@@ -1,0 +1,28 @@
+/* ************************* */
+/* screens below 600 (mobile & smaller tablets)*/
+/* ************************* */
+
+@media (max-width: 35.1em) {
+  .container {
+    grid-template-columns: 1fr;
+    margin: var(--font-size-xxl);
+  }
+
+  .Join-community {
+    grid-column: 1/2;
+  }
+
+  .headline-text {
+    margin-bottom: var(--font-size-base);
+  }
+
+  .sign-up:link,
+  .sign-up:visited {
+    padding: var(--font-size-base);
+  }
+
+  .sign-up:hover,
+  .sign-up:active {
+    background-color: hsl(71, 73%, 54%);
+  }
+}
